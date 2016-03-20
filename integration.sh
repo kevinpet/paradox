@@ -1,6 +1,6 @@
 #!/bin/bash
 
-jar=target/paradox-joda-2-1.0-SNAPSHOT.jar
+jar=target/paradox-joda-1-1.0-SNAPSHOT.jar
 expected=2016-01-01T12:00:00.000Z
 command="java -javaagent:$jar=fixed=$expected -jar $jar"
 actual=`$command 2>/dev/null | tail -1`
