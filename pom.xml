@@ -6,7 +6,7 @@
     <name>Paradox Agent for Joda Time</name>
 
     <groupId>net.kdpeterson</groupId>
-    <artifactId>paradox</artifactId>
+    <artifactId>paradox-joda-2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
