@@ -2,3 +2,4 @@ dependency-reduced-pom.xml
 .DS_Store
 .idea
 target
+paradox.iml
